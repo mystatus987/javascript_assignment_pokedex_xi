@@ -1,0 +1,28 @@
+body {
+    background-color: papayawhip;
+    font-family: cursive;
+}
+
+.card {
+    padding: 40px;
+    margin: 40px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px rgb(213, 238, 247);
+}
+
+.card-image {
+    height: 150px;
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+
+#listOfPokemon {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
