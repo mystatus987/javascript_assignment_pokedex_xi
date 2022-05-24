@@ -26,3 +26,11 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 20px;
 }
+
+.getButton {
+    font-size: 15px;
+    background-color: rgb(176, 233, 253);
+    border: 2px solid #c9d4c9;
+    /* Green */
+    border-radius: 4px;
+}

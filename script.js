@@ -87,7 +87,7 @@ const dispayPokemon = (pokemon) => {
                     <img class = "card-image" src="${pokemons.image}"/>
                     <h3 class ="card-title">${pokemons.id}. ${pokemons.name}</h3>
                     <p class= "card-subtitle">Type: ${pokemons.type}</p>
-                    <button onclick = "addPokemonList(${pokemons.id})">click</button>
+                    <button class="getButton" onclick = "addPokemonList(${pokemons.id})">Select</button>
                 </ol>
             </div>         
     `).join('')
